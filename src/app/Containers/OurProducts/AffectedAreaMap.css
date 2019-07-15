@@ -1,0 +1,81 @@
+
+
+  .panel-radio-button{
+    width: 190px;
+    height: 120px;
+    position: absolute;
+    align-content: left;
+    align-items: left;
+    top: 200px;
+    left: 20%;
+    background-color:transparent;
+  }
+  .radio-button{
+   left: 0;
+   height: 10%;
+   width: 10%;
+  
+  }
+  .radio-label{
+    color: white;
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+
+  .panel-summery-button{
+    width: 450px;
+    height: 35px;
+    position: absolute;
+    align-content: center;
+    align-items: center;
+    top: 760px;
+    left: 30%;
+    background-color: transparent;
+  }
+  .summary-button-group{
+    display: inline-block;
+    width:450px;
+    height: 35px;
+    animation: buttonmove 10s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+  }
+  @keyframes buttonmove {
+    from {bottom: -100px;}
+    to {bottom: 50px;}
+  }
+  .social_media_button,
+  .satellite_image_button
+  {
+  height: 35px;
+  position: absolute;
+  background-color: rgb(43, 40, 40);
+  font-size: 1em;
+  width: 221px;
+  color: white;
+  
+  }
+
+ 
+  .social_media_button
+  {
+    margin-left: 0px;
+  }
+  .satellite_image_button
+  {
+    margin-left: 226px;
+  }
+
+  .social_media_button:hover,
+  .social_media_button:active,
+  .satellite_image_button:hover,
+  .satellite_image_button:active
+  {
+    color: rgb(216, 78, 27);
+    outline-color: rgb(43, 40, 40);
+    /* background-color: rgb(136, 122, 122);
+    outline-color: rgb(136, 122, 122); */
+ }
+
+  

@@ -1,0 +1,386 @@
+.social-panel {
+    position: absolute;
+    left:22%;
+    top: 22%;
+    width: 75%;
+    height: 560px;
+    background-color: black;
+  }
+  .social-lower-first-panel{
+    position: absolute;
+    margin-top: 39%;
+    width: 100%;
+    height: 25%;
+    background-color: rgba(87, 78, 78, 0.308);
+    display: inline-block;
+  }
+  .social-lower-panel{
+    position: absolute;
+    width: 96%;
+    height: 76%;
+    margin: 2%;
+    margin-left: 2%;
+    margin-top: 1.5%;
+    background-color: rgba(87, 78, 78, 0.308);
+    display: inline-block;
+  }
+  .social-upper-panel{
+    position: absolute;
+    width: 100%;
+    height: 75%;
+    display: inline-block;
+    background-color: rgba(87, 78, 78, 0.308);
+  }
+  .social-inner-upper-right-panel{
+    display: inline-block;
+    position: absolute;
+    margin: 2%;
+    margin-top: 2%;
+    margin-left: 0%;
+    margin-bottom: 1%;
+    width: 46%;
+    height: 95%;
+    background-color:rgba(53, 51, 51, 0.308);
+  } 
+  .social-inner-upper-left-panel{
+    margin: 2%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    width: 48%;
+    height: 95%;
+  
+    display: inline-block;
+    background-color: rgba(53, 51, 51, 0.308);
+    
+    /* background-color: rgb(71, 149, 212); */
+  }
+
+
+  /*  TOTAL MENTIONS*/
+  .total-mention{
+    margin-top: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 30%; 
+    display: inline-block;
+    background-color: transparent;
+  }
+  .total-mention-text-div{
+    width: 100%;
+    height: 18%;
+    margin-top: 2%;
+    padding: 0%;
+    display: inline-block;
+    background-color: transparent;
+  }
+  .total-mention-text{
+    margin-left:40px;
+    margin-top: 0px;
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+  }
+  .total-mention-value-div{
+    width: 200px;
+    height: 50px;
+    margin-left:40px;
+    margin-top:10px;
+    /* background-color: rgb(167, 150, 150); */
+    background-color:	#3E766D;
+    outline-color: white;
+    outline-style: outset;
+    text-align: center;
+    
+  }
+  .total-mention-value{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2.3em;
+    color: white;
+  }
+  /*  TOTAL MENTIONS*/
+
+
+/*  OVERALL MENTIONS*/
+  .overall-mention-label-div{
+    width: 100%;
+    height: 10%;
+    background-color: transparent;
+  }
+  .overall-mention-label{
+    margin-left:40px;
+    font-size: 1.2em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+  }
+  /*  OVERALL MENTIONS*/
+
+
+/* OVERALL MENTIONS BUTTONs */
+  .blog-twitter-news-forum-button-div{
+    width: 100%;
+    height: 60%;
+    margin: 0;
+    display: inline-block;
+    background-color: transparent;
+  }
+  .blog-div,
+  .news-div,
+  .twitter-div,
+  .forum-div{
+    width: 100%;
+    height: 45%;
+    margin: 0;
+    background-color: transparent;
+  }
+  .twitter-label-div,
+  .blog-label-div,
+  .news-label-div,
+  .forum-label-div{
+    width: 100%;
+    height: 10%;
+    margin-top:10px;
+    background-color: transparent;
+  }
+  .twitter-label-div,
+  .blog-label-div{
+    margin-left:40px;
+  }
+  .news-label-div,
+  .forum-label-div{
+    margin-left:40px;
+  }
+  .button-header-text{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1em;
+    color: white;
+  }
+ 
+  .blog-button-div,
+  .forum-button-div,
+  .twitter-button-div,
+  .news-button-div{
+    margin-top:15px;
+    width: 200px;
+    height: 55px;
+    display: inline-block;
+    position: absolute;
+    
+  }
+  /* .blog-button-div{
+    margin-left:60px;
+    background-color: rgb(221, 129, 129);
+  } */
+  .twitter-button-div{
+    margin-left:40px;
+    background-color:#00C78C;
+  }
+  /* .forum-button-div{
+    margin-left:0px;
+    background-color: rgb(164, 235, 170);
+  } */
+  .news-button-div{
+    margin-left:40px;
+    background-color: #36DBCA;
+  }
+  .button{
+    margin-left:40px;
+    margin-top:15px;
+    width: 200px;
+    height: 55px;
+    display: inline-block;
+    position: absolute;
+    background-color: transparent;
+  }
+  .button1{
+    margin-left:40px;
+    margin-top:15px;
+    width: 200px;
+    height: 55px;
+    display: inline-block;
+    position: absolute;
+    background-color: transparent;
+  }
+
+  .blog-shade-div,
+  .forum-shade-div,
+  .twitter-shade-div,
+  .news-shade-div{
+    margin-left:0%;
+    margin-top:0%;
+    height: 55px;
+    display: inline-block;
+    position: absolute; 
+  
+    animation: slideforward 10s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+  }
+  /* .blog-shade-div{
+    background-color: rgba(247, 39, 39, 0.945);
+  }
+  .forum-shade-div{
+    background-color: rgb(0, 228, 19);
+  } */
+  .twitter-shade-div{
+    background-color: rgba(39, 119, 108, 0.993);
+  }
+  .news-shade-div{
+    background-color:  rgba(36, 43, 43, 0.616);
+  }
+  .percentage1-div,
+  .label-div{
+    height: 55px;
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+  }
+  .percentage1-div{
+    width: 55px;
+    margin-left:0px;
+  }
+  .label-div{
+    width: 140px;
+    margin-left:70px;
+  }
+  .button-text{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2.3em;
+    color: whitesmoke; 
+  }
+/* OVERALL MENTIONS BUTTONs */
+
+
+/* LOWER PANEL */
+    .overall-sentiment-label-div{
+      width: 90%;
+      height: 25%;
+      margin-left: 40px;
+      margin-top: 10px;
+      vertical-align: 1cm;
+      text-align: left;
+      background-color: transparent;
+    }
+        .overall-sentiment-label{
+          font-size: 1.2em;
+          font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+          color: whitesmoke;
+        }
+    .sentiment-bar{
+      width: 930px;
+      height: 15%;
+      margin-top:0%;
+      margin-left: 40px;
+      background-color: #E0FFFF;
+      display: inline-block;
+      position: relative; 
+    }
+        .sentiment-bar-negative{
+          height: 100%;
+          margin-top:0%;
+          background-color: transparent;
+        }
+        .sentiment-bar-neutral{
+          height: 100%;
+          margin-top:0%;
+          background-color: transparent;
+        }
+        .sentiment-bar-positive{
+          height: 100%;
+          margin-top:-3.4%;
+          background-color: transparent;
+        }
+
+
+  .sentiment-bar-negative-shade-div,
+  .sentiment-bar-neutral-shade-div,
+  .sentiment-bar-positive-shade-div{
+    margin-left:0%;
+    margin-top:0%;
+    height: 100%;
+  }
+  .sentiment-bar-negative-shade-div{
+    background-color:#00C78C;
+     animation: slideforward 10s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+  }
+  @keyframes slideforward {
+    from {
+      margin-right: 100%;
+    }
+  
+    to {
+      margin-right:0%;
+    }
+  }
+  .sentiment-bar-neutral-shade-div{
+    background-color:  transparent;
+  }
+  .sentiment-bar-positive-shade-div{
+    background-color:   #36DBCA;
+     animation: slidebackward 10s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+  }
+@keyframes slidebackward{
+  from {
+    margin-left: 100%;
+  }
+
+  to {
+    margin-left: 0%;
+  }
+}
+
+    .sentiment-bar-percentage-text-div{
+      width: 90%;
+      height: 15%;
+      margin-left:40px;
+      margin-top:0px;
+      display: inline-block;
+      background-color: transparent;
+      
+    }
+
+        .sentiment-bar-negative-percentage-text-div,
+        .sentiment-bar-positive-percentage-text-div,
+        .sentiment-bar-neutral-percentage-text-div{
+          width: 33%;
+          height: 100%;
+          margin-top:0%;
+          background-color: transparent;
+          display: inline-block;
+          position: relative;
+           }
+           .sentiment-bar-negative-percentage-text-div{
+            text-align: left;
+           }
+           .sentiment-bar-positive-percentage-text-div{
+            text-align: right;
+           }
+           .sentiment-bar-neutral-percentage-text-div{
+            text-align: center;
+           }
+        .negative-percentage-text,
+        .neutral-percentage-text,
+        .positive-percentage-text{
+          font-size: 1.2em;
+          color: white;
+          font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+  .sentiment-description-text-div{
+        width: 90%;
+        height: 5%;
+        margin-left:40px;
+        background-color: transparent;
+  }
+          .sentiment-description-text{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 1.2em;
+            color: white; 
+          }
+ 
+   
+
+
+ 
