@@ -16,7 +16,10 @@ import { ResqHome } from "./Containers/OurProducts/ResqHome";
 import { Contact } from "./Containers/Contact/Contact";
 import { DataPolicy } from "./Containers/DataPolicy/DataPolicy";
 
-import { AffectedAreaMap } from "./Containers/OurProducts/AffectedAreaMap";
+import { SpecificDisasterDetailMap } from "./Containers/OurProducts/SpecificDisasterDetailMap";
+
+import {SocialMediaSector} from './Containers/OurProducts/SocialMediaSector';
+import {SatelliteImageAnalysis} from './Containers/OurProducts/SatelliteImageAnalysis';
 
 class App extends React.Component {
     render(){
@@ -29,7 +32,10 @@ class App extends React.Component {
                
                 {/* <Route path={"/ourproducts"} component={OurProduct}/> */}
                 <Route path={"/resqhome"} component={ResqHome}/>
-                <Route path={"/detaildisaster"} component={AffectedAreaMap}/>
+                <Route path={"/disasterdetail"} component={SpecificDisasterDetailMap}/>
+
+                <Route path={"/socialmedia"} component={SocialMediaSector}/>
+                <Route path={"/satelliteimage"} component={SatelliteImageAnalysis}/>
             
                 <Route path={"/contact"} component={Contact}/>
                 <Route path={"/datapolicy"} component={DataPolicy}/>
